@@ -1,0 +1,52 @@
+#loginText { 
+    -fx-font: 17px Tahoma;
+    -fx-font-weight: bold;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, #9B27F3 0%, white 40%);
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#smallDataText { 
+    -fx-font: 15px Tahoma;
+    -fx-font-weight: bold;
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, #9B27F3 0%, white 40%);
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button {
+    -fx-font: 15px Tahoma;
+    -fx-font-weight: bold;
+    -fx-text-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, white 40%, #400070 10%);
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+	-fx-text-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-text-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+
+
+    -fx-background-color:  linear-gradient(#686868 0%, #DDB8FA 4%, #9B27F3 50%);
+    -fx-effect: dropshadow( three-pass-box , #DDB8FA , 5, 0.0 , 0 , 1 );
+    -fx-effect: dropshadow( one-pass-box , #DDB8FA , 2 , 0.0 , 2 , 0 );
+    -fx-padding: 6 40 6 40;
+}
+
+.button:hover{
+     -fx-font: 15px Tahoma;
+    -fx-font-weight: bold;
+    -fx-text-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, #400070 40%,white 10%);
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+    -fx-text-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-text-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+
+
+    -fx-background-color:  linear-gradient(#686868 0%,  #DDB8FA 4%, #9B27F3 50%);
+    -fx-effect: dropshadow( three-pass-box , #DDB8FA , 5, 0.0 , 0 , 1 );
+    -fx-effect: dropshadow( one-pass-box , #DDB8FA , 8 , 0.0 , 2 , 0 );
+    -fx-padding: 6 40 6 40;
+}
+
